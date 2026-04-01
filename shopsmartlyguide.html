@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopSmartly User Guide</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            color: #333;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #1a1a1a;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #4A90E2;
+            margin-top: 40px;
+            padding-bottom: 6px;
+            border-bottom: 1px solid #eee;
+        }
+        h3 {
+            color: #444;
+            margin-top: 25px;
+        }
+        p {
+            margin: 10px 0;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 25px;
+        }
+        li {
+            margin: 8px 0;
+        }
+        .intro {
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 30px;
+            padding: 15px 20px;
+            background: #f0f7ff;
+            border-radius: 8px;
+            border-left: 4px solid #4A90E2;
+        }
+        .tip {
+            background: #f9f9f9;
+            border-left: 4px solid #4A90E2;
+            padding: 12px 20px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        .tip strong {
+            color: #4A90E2;
+        }
+        .warning {
+            background: #fff8f0;
+            border-left: 4px solid #f0a500;
+            padding: 12px 20px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        .warning strong {
+            color: #f0a500;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        a {
+            color: #4A90E2;
+        }
+        .last-updated {
+            color: #888;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+        .nav {
+            background: #f9f9f9;
+            border-radius: 8px;
+            padding: 15px 20px;
+            margin-bottom: 30px;
+        }
+        .nav h3 {
+            margin-top: 0;
+            color: #4A90E2;
+        }
+        .nav ul {
+            margin: 0;
+        }
+        .nav li {
+            margin: 4px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>ShopSmartly User Guide</h1>
+    <p class="last-updated">Last updated: March 31, 2026</p>
+
+    <div class="intro">
+        Welcome to ShopSmartly — the shopping list app that learns how you shop and gets smarter every time you use it. This guide will walk you through everything you need to know to get the most out of the app.
+    </div>
+
+    <div class="nav">
+        <h3>Contents</h3>
+        <ul>
+            <li><a href="#stores">Setting Up Your Stores</a></li>
+            <li><a href="#items">Building Your Item List</a></li>
+            <li><a href="#shopping">Creating and Using Shopping Lists</a></li>
+            <li><a href="#sorting">Sorting Items for Your Store</a></li>
+            <li><a href="#siri">Using Siri with ShopSmartly</a></li>
+            <li><a href="#watch">Using ShopSmartly on Apple Watch</a></li>
+        </ul>
+    </div>
+
+    <div class="section" id="stores">
+        <h2>Setting Up Your Stores</h2>
+        <p>The first step is to add the stores you regularly shop at in the <strong>Stores tab</strong>. This forms the foundation of how ShopSmartly organises your shopping lists.</p>
+
+        <h3>Adding a Store Location</h3>
+        <p>If you always visit a specific location of a store and would like ShopSmartly to notify you when you arrive, enter the store's address in the <strong>Location field</strong>. When you are within range of the store and have an active shopping list, ShopSmartly will send a notification to your iPhone and Apple Watch so you never forget to check your list.</p>
+
+        <div class="warning">
+            <strong>Important:</strong> For store arrival notifications to work, you need to set Location Services for ShopSmartly to <strong>Always On</strong>. Go to iPhone Settings → Privacy &amp; Security → Location Services → ShopSmartly and select Always.
+        </div>
+
+        <h3>Adding a Store URL</h3>
+        <p>Optionally, you can enter the store's website URL. This will display the store's logo in the app interface, making it easy to identify your stores at a glance. In future releases, the URL will also enable online shopping and deal searching directly from your shopping list.</p>
+    </div>
+
+    <div class="section" id="items">
+        <h2>Building Your Item List</h2>
+        <p>The recommended next step is to add your most commonly purchased items in the <strong>Items tab</strong>. This does not need to be an exhaustive list — you can always add new items when creating shopping lists later.</p>
+
+        <h3>Assigning Items to Stores</h3>
+        <p>For each item, select the stores from which you normally purchase it. The key here is to select stores based on where you <em>actually buy</em> the item rather than simply which stores carry it. This ensures that when you create a shopping list for a specific store, only the items you genuinely buy there appear on the list — keeping things focused and clutter free.</p>
+
+        <h3>Adding Item Details</h3>
+        <p>For each item you can optionally add:</p>
+        <ul>
+            <li><strong>Brand preference</strong> — specify a preferred brand to help the shopper pick the right product</li>
+            <li><strong>Product photo</strong> — add an image of the item so the shopper can easily identify it on the shelf</li>
+        </ul>
+
+        <div class="tip">
+            <strong>Tip:</strong> Product photos are especially useful when someone else is doing the shopping — a picture of the exact product removes any guesswork about which variant or brand to pick.
+        </div>
+    </div>
+
+    <div class="section" id="shopping">
+        <h2>Creating and Using Shopping Lists</h2>
+        <p>When it is time to shop, go to the <strong>Shop tab</strong>, select the store you want to visit, and create a new list.</p>
+
+        <h3>How Items Are Presented</h3>
+        <p>When you first start using ShopSmartly, items will appear in alphabetical order. As you continue creating lists for a store over time, ShopSmartly learns which items you buy most frequently there and moves them to the top of the list automatically — making it faster and easier to build your list each time.</p>
+
+        <h3>Adding New Items to a List</h3>
+        <p>If you want to add an item that was not previously in your master list, you can add it directly from the shopping list view. The current store will automatically be assigned to the new item, but you can also assign it to other stores if you sometimes buy it elsewhere.</p>
+
+        <p>You can also select an item from your master list that is not currently assigned to this store. When you do this, ShopSmartly will automatically update that item to be available at this store for all future lists.</p>
+
+        <h3>Item Quantities and Notes</h3>
+        <ul>
+            <li>You can assign a <strong>quantity</strong> to each selected item to indicate how many you need</li>
+            <li>You can add <strong>notes</strong> to individual items for a specific shopping trip — for example a preferred size, a substitute brand, or any other instructions for the shopper. These notes apply to this list only and do not affect the master item record</li>
+        </ul>
+
+        <h3>Saving and Editing Lists</h3>
+        <p>Your changes are saved automatically as you make them — there is no need to manually save. You can close the list at any time and return to it later. You can always add more items to a list that has already been created, either from the List View itself or by returning to the Shop tab and selecting the same store again.</p>
+
+        <div class="tip">
+            <strong>Tip:</strong> ShopSmartly is designed for collaborative shopping. One person can create and manage the list at home while another uses it in the store — everything syncs in real time between devices signed in to the same account.
+        </div>
+    </div>
+
+    <div class="section" id="sorting">
+        <h2>Sorting Items for Your Store</h2>
+        <p>Arranging items in the order you will add them to your cart — matching the layout of the store and your natural route through the aisles — makes shopping significantly faster and more efficient. ShopSmartly remembers the order you set for each store and applies it to all future lists.</p>
+
+        <h3>Method 1: Sort as You Shop</h3>
+        <p>The most natural approach is to sort items the first time you shop at a store. Simply drag items into the order that matches the store layout. This order will be maintained the next time you create a list for that store. Any new items added on subsequent visits will appear at the end of the list — just drag them into the right position. After a few shopping trips all your regularly purchased items will be in the correct order automatically.</p>
+
+        <h3>Method 2: Create a Master Sort List</h3>
+        <p>Alternatively, create a temporary list for the store that includes all of its items and sort them into your preferred order. Once sorted, delete the list. All future lists for that store will now follow this order from the very first item. If you add new items to that store in the future, simply position them correctly in your next list.</p>
+
+        <div class="tip">
+            <strong>Tip:</strong> Method 2 is great if you want to get the ordering right before your first real shopping trip, so everything is already in the right place from day one.
+        </div>
+    </div>
+
+    <div class="section" id="siri">
+        <h2>Using Siri with ShopSmartly</h2>
+        <p>You can use Siri to add items to your shopping lists without opening the app — perfect for when you are cooking, driving, or your hands are full.</p>
+
+        <h3>How to Use Siri</h3>
+        <p>The most reliable approach is to say <strong>"Hey Siri, add to ShopSmartly"</strong>. Siri will then ask you which item you want to add and which store list to add it to. This two step approach works consistently and gives Siri the best chance of routing the request correctly to ShopSmartly.</p>
+
+        <div class="warning">
+            <strong>Note:</strong> Sometimes Siri will ask whether you want to add to ShopSmartly or to Apple Notes. This is because Siri gives priority to Apple's own Notes app for "add to" requests. Simply confirm ShopSmartly when prompted and your item will be added correctly.
+        </div>
+
+        <h3>Enabling Siri for ShopSmartly</h3>
+        <p>To make sure Siri works with ShopSmartly, go to <strong>iPhone Settings → Siri → ShopSmartly</strong> and make sure it is enabled. For the best experience, open ShopSmartly at least once after installation before using Siri commands.</p>
+    </div>
+
+    <div class="section" id="watch">
+        <h2>Using ShopSmartly on Apple Watch</h2>
+        <p>If you have an Apple Watch, ShopSmartly makes shopping even more convenient. Your shopping list is available right on your wrist so your hands are free while navigating the store.</p>
+
+        <h3>Opening a List on Your Watch</h3>
+        <p>Open the ShopSmartly app on your Apple Watch, select the shopping list you want to use, and the app will stay active for your entire shopping trip — no need to worry about the screen timing out. Simply raise your wrist whenever you need to check your list.</p>
+
+        <h3>Checking Off Items</h3>
+        <p>Tap an item to check it off as it goes into your cart. Checked items automatically move to the bottom of the list so your remaining items are always at the top — making it easy to see what is left at a glance.</p>
+
+        <h3>Completing Your Shop</h3>
+        <p>When you check off the last item on your list, ShopSmartly automatically closes the active session on your Watch. Your shopping trip is complete!</p>
+
+        <div class="tip">
+            <strong>Tip:</strong> Store arrival notifications appear on your Apple Watch as well as your iPhone. Tap the notification on your wrist to open the list directly — no need to take your phone out of your pocket.
+        </div>
+    </div>
+
+</body>
+</html>
